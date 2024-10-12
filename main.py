@@ -54,7 +54,7 @@ def ocr_image():
     else:
         str = s
     print(f'OCR结果：{str}', end='')
-    # 去除待比较的两个数字
+    # 取出待比较的两个数字
     a = 0
     b = 0
     for i in str:
