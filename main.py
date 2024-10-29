@@ -1,10 +1,10 @@
 import pytesseract
 import cv2
+import pyautogui
+import time
 import numpy as np
 from PIL import Image
-import pyautogui
 from ctypes import windll
-import time
 
 # 待比较的两个数
 a = 0
